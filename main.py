@@ -1,9 +1,9 @@
 n = [1, 2, 3, 4, 5, 6, 7, 8,1]
-m = []
+output = []
 
 for i in n:
   if i!=1:
-    m.append(i)
+    output.append(i)
 
 print (n)
-print (m)
+print (output)
