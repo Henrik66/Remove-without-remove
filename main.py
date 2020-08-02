@@ -9,12 +9,14 @@ def remove (inputlist, itemtoremove, outputlist):
 n = [1, 2, 3, 4, 5, 6, 7, 8,4, 4]
 output = []
 
+print ("Original list :", n)
+
 userinput = input("Enter the number you want removed: ")
 usernumber = int(userinput)
 remove (n, usernumber, output)
 
 # Results
-print ("Original list :", n)
+
 
 if len(n) != len(output):
   print ("Changed list :", output)
