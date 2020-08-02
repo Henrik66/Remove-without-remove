@@ -2,12 +2,11 @@ def remove (inputlist, itemtoremove, outputlist):
   whensomethingisremoved = False
 
   for i in inputlist:
-    print ("before if", i)
-    if i == itemtoremove:
-      print ("removed an item")
+    if i == itemtoremove and whensomethingisremoved == False :
+      print ("removing")
       whensomethingisremoved = True
     else:
-      print ("after if", i)
+      print ("adding", i)
       outputlist.append(i)
 
 n = [1, 2, 3, 4, 5, 6, 7, 8,1]
