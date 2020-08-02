@@ -12,5 +12,11 @@ output = []
 userinput = input("Enter the number you want removed: ")
 usernumber = int(userinput)
 remove (n, usernumber, output)
-print (n)
-print (output)
+
+# Results
+print ("Original list :", n)
+
+if len(n) != len(output):
+  print ("Changed list :", output)
+else:
+  print ("The number you entered was not in the list!")
